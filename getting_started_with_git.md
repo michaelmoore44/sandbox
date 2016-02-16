@@ -23,7 +23,40 @@ from here you could pick up with source tree by pointing to this repository.
 
 For now I will continue with the command line.
 
+To get the command line pointed to our working directory, type the command below:
+	cd sandbox
+
 for the purpose of introducing git, I have added these instructions as a text
-	file to the repository folder. Thi
+	file to the repository folder named getting_started_with_git.md. I saved this
+	file in the sandbox directory at the same level as the .git folder. In my
+	case, it would be stored in the following directory:
 
+	C:\projects\sandbox\sandbox
 
+Now to see what the repository looks like type the command below:
+
+	git status
+
+At this point, the status command tells me that I have one untracked file. To
+	get the file ready to be committed to the repository, it must be staged. To
+	stage the file enter the command below:
+
+	git add
+
+Entering the status command should tell you that you have one new file. To
+	commit this file to your local repository, enter the command below:
+
+	git commit
+
+Your default text editor should now open with instructions for entering a
+	commit message. enter the message save and exit.
+
+Your file has now been added to your version of the repository that is local to
+	your computer. The file now needs to be added to the remote version of your
+	repository(the one stored on github). To do this, type the command below:
+
+	git push -u origin master
+
+To see a log of your local repository you can now type the command below:
+
+	git log
