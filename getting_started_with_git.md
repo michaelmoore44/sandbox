@@ -1,3 +1,11 @@
+To install git, Google for "download git windows" and download git for windows.
+Run the downloaded file to install git on your computer. Be sure to pay close
+attention to where git is installed on your computer. This will be important 
+because when you install source tree, you will need to make sure that 
+Source tree is able to find your installation of git. When you install Source
+Tree, it will ask if you want to install a standalone version of git. I usually
+point it to my already installed instance of git.
+
 
 To create a new repository:
 Go to your account page on github.com
